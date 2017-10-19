@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3582B7B31F239C4100827A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582B7B21F239C4100827A98 /* AppDelegate.swift */; };
+		3582B7B51F239C4100827A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582B7B41F239C4100827A98 /* ViewController.swift */; };
+		3582B7B81F239C4100827A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3582B7B61F239C4100827A98 /* Main.storyboard */; };
+		3582B7BA1F239C4100827A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3582B7B91F239C4100827A98 /* Assets.xcassets */; };
+		3582B7BD1F239C4100827A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3582B7BB1F239C4100827A98 /* LaunchScreen.storyboard */; };
+		358C7A481F936F97001DCE10 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358C7A471F936F97001DCE10 /* LoginViewController.swift */; };
+		35ACE90B1F8D6B5D002CD7A6 /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ACE90A1F8D6B5D002CD7A6 /* CalculationViewController.swift */; };
+		F88E5FA533264545821ED395 /* Pods_ProkShutters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6065D651F5B8D16FFCCD70 /* Pods_ProkShutters.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E6065D651F5B8D16FFCCD70 /* Pods_ProkShutters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProkShutters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3582B7AF1F239C4100827A98 /* ProkShutters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProkShutters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3582B7B21F239C4100827A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3582B7B41F239C4100827A98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3582B7B71F239C4100827A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3582B7B91F239C4100827A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3582B7BC1F239C4100827A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3582B7BE1F239C4100827A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358C7A471F936F97001DCE10 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewControllers/LoginViewController.swift; sourceTree = "<group>"; };
+		35ACE90A1F8D6B5D002CD7A6 /* CalculationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculationViewController.swift; path = ViewControllers/CalculationViewController.swift; sourceTree = "<group>"; };
+		489F7EDF6BB108A66496254F /* Pods-ProkShutters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProkShutters.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProkShutters/Pods-ProkShutters.release.xcconfig"; sourceTree = "<group>"; };
+		5BDCB118BB1294D2D6566072 /* Pods-ProkShutters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProkShutters.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProkShutters/Pods-ProkShutters.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3582B7AC1F239C4100827A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88E5FA533264545821ED395 /* Pods_ProkShutters.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3582B7A61F239C4100827A98 = {
+			isa = PBXGroup;
+			children = (
+				3582B7B11F239C4100827A98 /* ProkShutters */,
+				3582B7B01F239C4100827A98 /* Products */,
+				9E5E659A3C01A836008D174C /* Pods */,
+				84CE5A73638DDE341166717D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3582B7B01F239C4100827A98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3582B7AF1F239C4100827A98 /* ProkShutters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3582B7B11F239C4100827A98 /* ProkShutters */ = {
+			isa = PBXGroup;
+			children = (
+				35ACE9081F8D6A69002CD7A6 /* Model */,
+				35ACE9091F8D6A71002CD7A6 /* ViewControllers */,
+				3582B7B41F239C4100827A98 /* ViewController.swift */,
+				3582B7B61F239C4100827A98 /* Main.storyboard */,
+				3582B7B91F239C4100827A98 /* Assets.xcassets */,
+				3582B7B21F239C4100827A98 /* AppDelegate.swift */,
+				3582B7BB1F239C4100827A98 /* LaunchScreen.storyboard */,
+				3582B7BE1F239C4100827A98 /* Info.plist */,
+			);
+			path = ProkShutters;
+			sourceTree = "<group>";
+		};
+		35ACE9081F8D6A69002CD7A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		35ACE9091F8D6A71002CD7A6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				35ACE90A1F8D6B5D002CD7A6 /* CalculationViewController.swift */,
+				358C7A471F936F97001DCE10 /* LoginViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84CE5A73638DDE341166717D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E6065D651F5B8D16FFCCD70 /* Pods_ProkShutters.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E5E659A3C01A836008D174C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BDCB118BB1294D2D6566072 /* Pods-ProkShutters.debug.xcconfig */,
+				489F7EDF6BB108A66496254F /* Pods-ProkShutters.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3582B7AE1F239C4100827A98 /* ProkShutters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3582B7C11F239C4100827A98 /* Build configuration list for PBXNativeTarget "ProkShutters" */;
+			buildPhases = (
+				D4820AE1DAA437400EFB2F55 /* [CP] Check Pods Manifest.lock */,
+				3582B7AB1F239C4100827A98 /* Sources */,
+				3582B7AC1F239C4100827A98 /* Frameworks */,
+				3582B7AD1F239C4100827A98 /* Resources */,
+				345F09E8AA36341D71FDB804 /* [CP] Embed Pods Frameworks */,
+				7F6198D01318FAC35A0E05F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProkShutters;
+			productName = ProkShutters;
+			productReference = 3582B7AF1F239C4100827A98 /* ProkShutters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3582B7A71F239C4100827A98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Andrey Krit";
+				TargetAttributes = {
+					3582B7AE1F239C4100827A98 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3398483R66;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3582B7AA1F239C4100827A98 /* Build configuration list for PBXProject "ProkShutters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3582B7A61F239C4100827A98;
+			productRefGroup = 3582B7B01F239C4100827A98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3582B7AE1F239C4100827A98 /* ProkShutters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3582B7AD1F239C4100827A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3582B7BD1F239C4100827A98 /* LaunchScreen.storyboard in Resources */,
+				3582B7BA1F239C4100827A98 /* Assets.xcassets in Resources */,
+				3582B7B81F239C4100827A98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		345F09E8AA36341D71FDB804 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProkShutters/Pods-ProkShutters-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProkShutters/Pods-ProkShutters-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F6198D01318FAC35A0E05F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProkShutters/Pods-ProkShutters-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4820AE1DAA437400EFB2F55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProkShutters-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3582B7AB1F239C4100827A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358C7A481F936F97001DCE10 /* LoginViewController.swift in Sources */,
+				3582B7B51F239C4100827A98 /* ViewController.swift in Sources */,
+				35ACE90B1F8D6B5D002CD7A6 /* CalculationViewController.swift in Sources */,
+				3582B7B31F239C4100827A98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3582B7B61F239C4100827A98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3582B7B71F239C4100827A98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3582B7BB1F239C4100827A98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3582B7BC1F239C4100827A98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3582B7BF1F239C4100827A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3582B7C01F239C4100827A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3582B7C21F239C4100827A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDCB118BB1294D2D6566072 /* Pods-ProkShutters.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3398483R66;
+				INFOPLIST_FILE = ProkShutters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ProkShutters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3582B7C31F239C4100827A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489F7EDF6BB108A66496254F /* Pods-ProkShutters.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3398483R66;
+				INFOPLIST_FILE = ProkShutters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ProkShutters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3582B7AA1F239C4100827A98 /* Build configuration list for PBXProject "ProkShutters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3582B7BF1F239C4100827A98 /* Debug */,
+				3582B7C01F239C4100827A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3582B7C11F239C4100827A98 /* Build configuration list for PBXNativeTarget "ProkShutters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3582B7C21F239C4100827A98 /* Debug */,
+				3582B7C31F239C4100827A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3582B7A71F239C4100827A98 /* Project object */;
+}
