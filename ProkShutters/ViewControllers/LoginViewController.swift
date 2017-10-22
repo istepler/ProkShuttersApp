@@ -38,7 +38,7 @@ class LoginViewController: UIViewController {
     }
     
     func sendRequest(url: String, parameters: [String: AnyObject], completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionTask {
-        let requestURL = URL(string: url + "?" + "HelloHello")!
+        let requestURL = URL(string: url + "?" + "Hello")!
         
         var request = URLRequest(url: requestURL)
         request.httpMethod = "GET"
@@ -60,18 +60,4 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var send: UIButton!
     
     
-//    func keyboardWillShow(aNotification: Notification)    {
-//        
-//        let duration = aNotification.userInfo.objectForKey(UIKeyboardAnimationDurationUserInfoKey) as Double
-//        let curve = aNotification.userInfo.objectForKey(UIKeyboardAnimationCurveUserInfoKey) as UInt
-//        
-//        self.view.setNeedsLayout()
-//        baseConstraint.constant = 211
-//        self.view.setNeedsUpdateConstraints()
-//        
-//        UIView.animateWithDuration(duration, delay: 0, options: UIViewAnimationOptions.fromMask(curve), animations: {
-//            self.view.layoutIfNeeded()
-//        }, completion: {
-//            (value: Bool) in println()
-//        })
     }

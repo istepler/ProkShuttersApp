@@ -8,5 +8,6 @@ target 'ProkShutters' do
   # Pods for ProkShutters
   pod 'IQKeyboardManagerSwift'
   pod 'SkyFloatingLabelTextField', '~> 3.0'
+  pod 'SVProgressHUD'
 
 end
